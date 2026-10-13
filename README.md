@@ -1,4 +1,4 @@
-# Conversor USD → HNL
+Conversor Dolares a Lempiras
 
 **Estudiante:** Camila Fernanda Nuñez Suazo
 
