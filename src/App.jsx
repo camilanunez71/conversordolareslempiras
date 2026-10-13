@@ -64,7 +64,7 @@ function App() {
         <Card elevation={4}>
           <CardContent>
             <Typography variant="h4" component="h1" gutterBottom align="center">
-              Conversor USD → HNL
+              Conversor de Dolares a Lempiras
             </Typography>
 
             {/* Estado: cargando */}
