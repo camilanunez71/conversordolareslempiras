@@ -1,16 +1,31 @@
-# React + Vite
+# Conversor USD → HNL
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Estudiante:** Camila Fernanda Nuñez Suazo
 
-Currently, two official plugins are available:
+Descripcion:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Aplicación web hecha con React, Vite y Material UI que convierte dolares
+estadounidenses (USD) a lempiras (HNL) usando la tasa de cambio real obtenida
+de la API pública ExchangeRate-API. Muestra la tasa actual y calcula el total
+en tiempo real mientras el usuario escribe.
 
-## React Compiler
+Como ejecutar el proyecto:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clonar el repositorio:
+   git clone https://github.com/TU-USUARIO/conversor-usd-hnl.git
+2. Entrar a la carpeta:
+   cd conversor-usd-hnl
+3. Instalar dependencias:
+   npm install
+4. Ejecutar en modo desarrollo:
+   npm run dev
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+- React + Vite
+- Material UI
+- ExchangeRate-API (https://www.exchangerate-api.com)
+
+
+
+https://TU-APP.vercel.app
