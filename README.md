@@ -9,7 +9,7 @@ que convierte dolaresa lempiras usando la tasa de cambio real obtenida
 de la API publica ExchangeRate-API. Muestra la tasa actual y calcula el total
 en tiempo real mientras el usuario escribe la cantidad que quiere convertir a dolares.
 
-## Cómo ejecutar el proyecto
+## Como ejecutar el proyecto
 
 1. Clonar el repositorio:
    git clone https://github.com/camilanunez71/conversordolareslempiras.git
