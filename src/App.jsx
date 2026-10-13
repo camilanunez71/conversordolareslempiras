@@ -15,13 +15,13 @@ import {
 const API_URL = "https://open.er-api.com/v6/latest/USD";
 
 function App() {
-  // Estados
+  
   const [amountUsd, setAmountUsd] = useState("");
   const [exchangeRate, setExchangeRate] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
 
-  // Pedir la tasa una sola vez al cargar la página
+  
   useEffect(() => {
     const fetchExchangeRate = async () => {
       try {
@@ -50,7 +50,7 @@ function App() {
     fetchExchangeRate();
   }, []);
 
-  // Cálculo del total en lempiras (2 decimales)
+  
   const amountNumber = parseFloat(amountUsd);
   const totalHnl =
     !isNaN(amountNumber) && exchangeRate
